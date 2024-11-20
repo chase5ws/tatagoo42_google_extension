@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "42 E-Commerce Links",
+    "version": "1.0",
+    "description": "列出電商網站並提供跳轉連結",
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+      }
+    },
+    "permissions": [],
+    "web_accessible_resources": [
+      {
+        "resources": [
+          "home/categories.html",
+          "home/categories.css",
+          "home/categories.js"
+        ],
+        "matches": ["<all_urls>"]
+      }
+    ]
+  }
+  

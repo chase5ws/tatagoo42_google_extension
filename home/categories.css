@@ -1,0 +1,43 @@
+/* 底部導航欄 */
+.footer-nav {
+  display: flex;
+  justify-content: space-around; /* 平均分佈 */
+  align-items: center;
+  position: fixed; /* 固定在底部 */
+  bottom: 0;
+  width: 100%;
+  background-color: #ffffff; /* 白色背景 */
+  border-top: 1px solid #ddd; /* 頂部邊框 */
+  height: 60px; /* 固定高度 */
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* 陰影 */
+  z-index: 10; /* 保證在頂層 */
+}
+
+/* 單個導航項 */
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px; /* 小字體 */
+  color: #555;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* 導航圖標 */
+.nav-item img {
+  width: 24px; /* 小圖標大小 */
+  height: 24px;
+  margin-bottom: 5px; /* 與文字的間距 */
+  transition: transform 0.2s ease;
+}
+
+.nav-item:hover img {
+  transform: scale(1.2); /* 懸停放大效果 */
+}
+
+.nav-item span {
+  font-size: 10px; /* 文字大小 */
+  color: #333; /* 文字顏色 */
+}

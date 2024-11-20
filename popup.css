@@ -1,0 +1,161 @@
+/* 全局樣式 */
+body {
+    margin: 0; /* 去掉頁面外的邊距 */
+    padding: 0;
+    font-family: Arial, sans-serif;
+    width: 300px; /* 固定寬度 */
+    height: 500px; /* 固定高度 */
+    overflow: auto;
+    background-color: #f5f5f5; /* 背景色 */
+    border: none; /* 移除邊框 */
+    box-sizing: border-box; /* 確保內邊距與邊框計入總尺寸 */
+    display: flex;
+    flex-direction: column; /* 保證所有內容垂直排列 */
+    justify-content: space-between; /* 將內容與導航欄分開 */
+  }
+  
+  /* 頂部標題欄樣式 */
+  .header {
+    background-image: url('icons/star.jpeg');
+    background-size: cover; /* 圖片覆蓋整個區域 */
+    background-position: center; /* 圖片居中 */
+    color: white; /* 白色文字 */
+    padding: 10px 15px; /* 內距 */
+    font-size: 18px; /* 字體大小 */
+    font-weight: bold;
+    text-align: left; /* 向左對齊 */
+    border-bottom: none; /* 移除底部灰線 */
+    margin: 0; /* 移除邊框外距 */
+  }
+  
+  /* 區塊標題樣式 */
+  .section-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 10px 0;
+  }
+  
+  /* 卡片容器樣式 */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 每行兩列 */
+    gap: 10px; /* 卡片之間的間距 */
+    padding: 10px;
+    flex-grow: 1; /* 讓卡片區域自動擴展 */
+    overflow-y: auto; /* 當內容超出時滾動 */
+  }
+  
+  /* 卡片樣式 */
+  .card {
+    display: flex;
+    flex-direction: column; /* 垂直排列內容 */
+    align-items: center;
+    justify-content: center; /* 居中對齊 */
+    background-color: #fff; /* 白色背景 */
+    border: 1px solid #ddd; /* 灰色邊框 */
+    border-radius: 8px; /* 圓角 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 陰影 */
+    padding: 10px; /* 內距 */
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    max-width: 120px; /* 卡片最大寬度 */
+  }
+  
+  .card:hover {
+    transform: translateY(-2px); /* 懸停時輕微移動 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* 增強陰影 */
+  }
+  
+  /* 卡片圖片樣式 */
+  .card img {
+    max-width: 50px; /* 限制圖片大小 */
+    max-height: 50px; /* 限制圖片高度 */
+    margin-bottom: 5px; /* 圖片與文字的間距 */
+  }
+  
+  /* 百分比樣式 */
+  .card .percentage {
+    font-size: 12px; /* 字體稍小 */
+    color: #ff4500; /* 橘紅色字體 */
+    margin-top: 5px; /* 與上方間距 */
+    font-weight: bold; /* 加粗 */
+  }
+  
+  /* VIP 現金回饋樣式 */
+  .card .vip-percentage {
+    font-size: 10px; /* 字體變小 */
+    color: #999; /* 灰色字體 */
+    margin-top: 3px; /* 與普通現金回饋的間距 */
+    font-weight: normal; /* 不加粗，保持低調 */
+  }
+  
+  /* 按鈕樣式 */
+  button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+ /* 底部導航欄 */
+.footer-nav {
+    display: flex;
+    justify-content: space-around; /* 平均分配導航項目 */
+    align-items: center;
+    position: fixed; /* 固定在底部 */
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff;
+    border-top: 1px solid #ddd; /* 頂部邊框 */
+    height: 50px; /* 減少高度 */
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* 陰影 */
+    z-index: 10; /* 保證導航欄在最頂層 */
+  }
+  
+  /* 單個導航項目 */
+  .nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px; /* 字體更小 */
+    color: #555;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  /* 導航圖標 */
+  .nav-item img {
+    width: 18px; /* 圖標更小 */
+    height: 18px; /* 圖標更小 */
+    margin-bottom: 3px; /* 與文字間距更小 */
+    transition: transform 0.2s ease;
+  }
+  
+  .nav-item:hover img {
+    transform: scale(1.2); /* 懸停放大效果 */
+  }
+  
+  .nav-item span {
+    font-size: 10px; /* 更小的文字 */
+    color: #333;
+  }
+  
+  /* 調整卡片容器 */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 每行兩列 */
+    gap: 10px; /* 卡片之間的間距 */
+    padding: 10px;
+    margin-bottom: 60px; /* 增加底部間距，避免被導航欄擋住 */
+    overflow-y: auto; /* 支持垂直滾動 */
+  }
+  
