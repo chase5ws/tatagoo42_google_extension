@@ -1,3 +1,5 @@
+chromewebstore連結:https://chromewebstore.google.com/detail/42-e-commerce-links/obibmgpaeoijmglfbmhokelnlnafgflb?pli=1
+
 隱私權政策
 歡迎使用我們的擴充功能！我們非常重視您的隱私，並致力於保護您在使用本擴充功能時的個人資料。本隱私權政策將向您說明我們如何收集、使用、儲存及保護您的資料。
 
