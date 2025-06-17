@@ -1,6 +1,83 @@
-chromewebstore連結:https://chromewebstore.google.com/detail/42-e-commerce-links/obibmgpaeoijmglfbmhokelnlnafgflb?pli=1
+# 42 E-Commerce Links (Finally Demo)
 
-隱私權政策
+![version](https://img.shields.io/badge/version-1.0.0-blue)
+![license](https://img.shields.io/badge/license-MIT-green)
+![platform](https://img.shields.io/badge/platform-Chrome-red)
+![GitHub issues](https://img.shields.io/github/issues/chase5ws/tatagoo42_google_extension)
+![GitHub stars](https://img.shields.io/github/stars/chase5ws/tatagoo42_google_extension)
+![GitHub forks](https://img.shields.io/github/forks/chase5ws/tatagoo42_google_extension)
+![icon](icons/icon.jpeg)
+
+---
+
+### 專案說明
+
+**42 E-Commerce Links** 是一個 Chrome 擴充功能，旨在幫助用戶快速訪問熱門電商網站，並提供現金回饋與 VIP 現金回饋資訊。此擴充功能界面簡單直觀，適合經常進行網購的用戶。
+
+---
+
+### 功能特色
+
+- 快速訪問熱門電商網站，例如：
+  - PChome 24h
+  - Booking.com
+  - Agoda
+  - 天貓
+- 顯示一般現金回饋與 VIP 現金回饋比例。
+- 簡單直觀的卡片式設計，方便用戶瀏覽與點擊。
+
+---
+
+### DEMO 頁面
+
+此專案已上架至 Chrome Web Store，點擊以下連結進行查看與安裝：  
+[42 E-Commerce Links - Chrome Web Store](https://chromewebstore.google.com/detail/42-e-commerce-links/obibmgpaeoijmglfbmhokelnlnafgflb?pli=1)
+
+---
+
+### 安裝指南 (開發者模式)
+
+1. 確保已安裝 **Google Chrome** 瀏覽器。
+2. 下載專案檔案並解壓縮。
+3. 開啟 Chrome，進入 [擴充功能管理頁面](chrome://extensions/)。
+4. 開啟 **開發者模式**。
+5. 點擊 **載入未封裝項目**，選取專案資料夾。
+6. 安裝完成後，點擊工具列上的擴充功能圖示即可使用。
+
+---
+
+### 專案結構
+
+- **popup.html**: 擴充功能的主要介面。
+- **popup.js**: 實現功能邏輯，如現金回饋數據的顯示。
+- **popup.css**: 設計與樣式相關的檔案。
+- **manifest.json**: Chrome 擴充功能的設定檔案。
+
+---
+
+### 快速參考資源
+
+- **Chrome 擴充功能開發指南**：  
+  [Chrome 開發者文檔](https://developer.chrome.com/docs/extensions/mv3/)
+  
+- **JavaScript 文件**：  
+  [MDN JavaScript 指南](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript)
+
+---
+
+### 適用場景
+
+本專案適用於經常使用電商網站的用戶，幫助快速瀏覽網站並獲取現金回饋資訊。同時也適合對 Chrome 擴充功能開發感興趣的開發者參考。
+
+---
+
+### 專案網址
+
+GitHub Repository: [tatagoo42_google_extension](https://github.com/chase5ws/tatagoo42_google_extension)
+
+---
+
+### 隱私權政策
 歡迎使用我們的擴充功能！我們非常重視您的隱私，並致力於保護您在使用本擴充功能時的個人資料。本隱私權政策將向您說明我們如何收集、使用、儲存及保護您的資料。
 
 1. 我們收集的資料
