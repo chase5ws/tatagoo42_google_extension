@@ -6,7 +6,7 @@
 ![GitHub issues](https://img.shields.io/github/issues/chase5ws/tatagoo42_google_extension)
 ![GitHub stars](https://img.shields.io/github/stars/chase5ws/tatagoo42_google_extension)
 ![GitHub forks](https://img.shields.io/github/forks/chase5ws/tatagoo42_google_extension)
-![icon](icons/icon.jpeg)
+![icon](icons/icon.png)
 
 ---
 
